@@ -1,0 +1,119 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+   
+}
+img{
+    width: 450px;
+    height: 450px;
+ }
+ .y{
+    width: 70px;
+    height: 50px;
+ }
+
+.barra{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .details{
+    display: flex;
+ 
+ }
+ .fundo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+   margin: 0;
+}
+
+
+ .all{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    border: 1px solid white;
+    width: 850px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+   align-items: center;
+   background-color: white;
+   gap: 10px;
+ }
+.tudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+p{
+
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(29, 112, 163);
+}
+label{
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+   
+
+input[type=button], [type=submit]{
+    border-radius: 15px 15px 15px;
+    width: 100px;
+    height: 35px;
+    font-size: 1.05rem;
+    background-color:rgb(29, 112, 163);
+    border: 1px solid rgb(29, 112, 163);
+    color: white;
+    font-weight: 500;
+}
+input[type=button], [type=reset]{
+    border-radius: 15px 15px 15px;
+    width: 100px;
+    height: 35px;
+    font-size: 1.05rem;
+    background-color: darkred;
+    border: 1px solid darkred;
+    color: white;
+    font-weight: 500;
+}
+input[type=button], [type=submit]:hover{
+    background-color: white;
+    color: rgb(29, 112, 163);
+}
+input[type=button], [type=reset]:hover{
+    background-color: white;
+    color: darkred;
+}
+.login{
+    width: 130px;
+    height: 30px;
+    font-size: 1.15rem;
+    text-align: center;
+    border-radius: 15px 15px 15px;
+    background-color: darkblue;
+    border-color: darkblue;
+    color: white;
+}
+.login:hover{
+    background-color: white;
+    color: darkblue;
+}
